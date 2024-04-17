@@ -4,4 +4,6 @@
 
 * * * * * curl -k -X POST https://api.acontel.it/public/vehicles/updateVehicleData >/proc/1/fd/1 2>/proc/1/fd/2
 
+0 3 * * * curl -k -X POST https://uat.acontel.it/public/vehicleModels/setPublicDocs >/proc/1/fd/1 2>/proc/1/fd/2
+
 # An empty line is required at the end of this file for a valid cron file.
